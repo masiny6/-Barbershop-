@@ -1,16 +1,3 @@
-/*************************GLOBAL PROPERTY*************************/
-body {
-    margin:0;
-    padding:0;
-    font-family: "LatoRegular";
-}
-ul {
-    list-style-type: none;
-}
-a {
-    text-decoration: none;
-    color: black;
-}
 @font-face {
     font-family: "LatoRegular";
     src: url("fonts/LatoRegular.ttf") format("truetype");
@@ -47,6 +34,19 @@ a {
     font-style: normal;
     font-weight: normal;
 }
+/*************************GLOBAL PROPERTY*************************/
+body {
+    margin:0;
+    padding:0;
+    font-family: "LatoRegular";
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -57,6 +57,7 @@ a {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+/*-------------------------INDEX------------------------*/
 /*************************HEADER*************************/
 header {
     font-size: 14px;
